@@ -21,6 +21,14 @@
   .note { background: #fffbeb; border-left: 4px solid #b45309; padding: 12px 16px; margin: 20px 0; }
   .hero { width: 100%; height: auto; border-radius: 12px; margin: 16px 0 8px; display: block; }
   .product { max-width: 420px; width: 100%; height: auto; border-radius: 12px; display: block; margin: 20px auto; }
+  .shop-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 20px 0; }
+  .shop-card { border: 1px solid #e5e0d8; border-radius: 12px; padding: 14px; text-align: center; }
+  .shop-card img { width: 100%; height: auto; border-radius: 8px; }
+  .shop-card h3 { font-size: 16px; margin: 10px 0 4px; }
+  .shop-card p { margin: 6px 0; font-size: 15px; color: #555; }
+  .btn-sm { display: inline-block; background: #b45309; color: #fff; font-family: Georgia, 'Times New Roman', serif; font-size: 15px; padding: 10px 20px; border-radius: 8px; text-decoration: none; margin: 10px 0 4px; }
+  .btn-sm:hover { background: #92400e; }
+  @media (max-width: 480px) { .shop-grid { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
@@ -49,6 +57,33 @@
   <img class="product" src="product-jelly.webp" alt="Milk Makeup Cooling Water Jelly Tint in Splash (Berry)">
   <p><a class="btn" href="https://www.amazon.com/dp/B0CQ2ZGNBS?tag=homegiftfin08-20">Check price on Amazon</a></p>
   <p class="disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+
+  <h2>Complete the stack</h2>
+  <p>One bottle starts the stack. These are the other four pieces.</p>
+  <div class="shop-grid">
+    <div class="shop-card">
+      <a href="vanilla-yara.html"><img src="product-yara.webp" alt="Lattafa Yara Eau de Parfum 100ml, pink bottle"></a>
+      <h3><a href="vanilla-yara.html">Lattafa Yara, 100ml</a></h3>
+      <p>The vanilla base</p>
+    </div>
+    <div class="shop-card">
+      <a href="yara-gift-set.html"><img src="product-gift-set.webp" alt="Lattafa My Yara Collection gift set, four 25ml Yara mini bottles in the gift box"></a>
+      <h3><a href="yara-gift-set.html">Lattafa My Yara Collection, 4&times;25ml</a></h3>
+      <p>Four minis in one box</p>
+    </div>
+    <div class="shop-card">
+      <a href="glossier-you.html"><img src="product-glossier-you.webp" alt="Glossier You Eau de Parfum 50ml bottle"></a>
+      <h3><a href="glossier-you.html">Glossier You, 50ml</a></h3>
+      <p>The musk layer</p>
+    </div>
+    <div class="shop-card">
+      <a href="la-vie-est-belle.html"><img src="product-la-vie-est-belle.webp" alt="Lanc&ocirc;me La Vie Est Belle Eau de Parfum 1.7 oz bottle"></a>
+      <h3><a href="la-vie-est-belle.html">Lanc&ocirc;me La Vie Est Belle, 1.7 oz</a></h3>
+      <p>The amber finish</p>
+    </div>
+  </div>
+  <p>See all five together in the <a href="gift-guide.html">Christmas gift guide</a>.</p>
+
 
   <h2>Find us on Pinterest</h2>
   <p><a href="https://www.pinterest.com/ruanyuzhen999/">Scent Stacking by Yuzhen (@ruanyuzhen999) on Pinterest</a></p>
