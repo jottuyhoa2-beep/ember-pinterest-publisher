@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://ember-pinterest-publisher.vercel.app/sitemap.xml
+Sitemap: https://the-gift-nook.vercel.app/sitemap.xml
